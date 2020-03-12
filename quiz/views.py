@@ -88,7 +88,7 @@ def quize2(request):
             c=""
             num=num+100;
         else:
-            a="fuck , u got that wrong"
+            a="so sad , u got that wrong"
             b=" the right answer is:"
             c=(Questions.objects.get(id =2)).answer
     
@@ -123,7 +123,7 @@ def quize3(request):
             c=""
             num=num+100;
         else:
-            a="fuck , u got that wrong"
+            a="so sad , u got that wrong"
             b=" the right answer is:"
             c=(Questions.objects.get(id =3)).answer
     
@@ -157,7 +157,7 @@ def quize4(request):
             c=""
             num=num+100;
         else:
-            a="fuck , u got that wrong"
+            a="so sad , u got that wrong"
             b=" the right answer is:"
             c=(Questions.objects.get(id =4)).answer
     
@@ -194,7 +194,7 @@ def quize5(request):
             c=""
             num=num+100;
         else:
-            a="fuck , u got that wrong"
+            a="so sad , u got that wrong"
             b=" the right answer is:"
             c=(Questions.objects.get(id =5)).answer
 
