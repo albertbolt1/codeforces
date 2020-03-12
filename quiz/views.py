@@ -54,7 +54,7 @@ def quize1(request):
             c=""
             num=num+100;
         else:
-            a="fuck , u got that wrong"
+            a="so sad , u got that wrong"
             b=" the right answer is:"
             c=(Questions.objects.get(id =1)).answer
     
