@@ -17,3 +17,10 @@ just about webapps
 <li>the templates are created and we go to the templates which are rendered in the views</li>
 <li>the views are used to create urls and we use the urls to move through the app</li>
 </ul>
+
+<b>Dockerfile has been added  </b>
+commands to run the docker file :
+<ul>
+<li>docker image build -t quizapp .</li>
+<li>docker run --name quizappweb -d -p 8000:8000 quizapp</li>
+</ul>
